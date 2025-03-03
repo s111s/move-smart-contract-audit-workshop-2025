@@ -1,0 +1,16 @@
+[package]
+name = "random_by_timestamp"
+version = "1.0.0"
+authors = []
+
+[addresses]
+s111s_addr = "5f3021dff8188d71ab734d07fea4b44711132560ab421edfa0f9635180ce80ec"
+
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-framework.git"
+rev = "mainnet"
+subdir = "aptos-framework"
+
+[dev-dependencies]
