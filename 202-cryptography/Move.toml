@@ -1,0 +1,15 @@
+[package]
+name = "cryptography"
+version = "1.0.0"
+authors = []
+
+[addresses]
+s111s_addr = "ad266e0d0b4eb06cf2034483f1eaa12aa32cd566d3d363c8f2ee408715e8bb34"
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-framework.git"
+rev = "mainnet"
+subdir = "aptos-framework"
+
+[dev-dependencies]
